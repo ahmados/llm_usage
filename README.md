@@ -12,4 +12,5 @@ Hosted on GCP Cloud E2 machine.
 <img width="1006" alt="Skärmavbild 2024-06-30 kl  22 42 43" src="https://github.com/ahmados/llm_usage/assets/32655358/6296f3d6-d7e1-4909-a92e-f8ae901195d4">
 
 1C bot : @onec_helper_bot
+
 Kazakh translate bot : @ml_translator_bot
