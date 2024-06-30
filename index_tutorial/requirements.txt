@@ -1,2 +1,2 @@
-openai
+llama-index
 python-telegram-bot
