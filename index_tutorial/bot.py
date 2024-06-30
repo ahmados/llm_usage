@@ -45,6 +45,8 @@ from llama_index.core import StorageContext, load_index_from_storage
 
 import os
 
+
+os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 loaded_index = load_index_from_storage(
     StorageContext.from_defaults(persist_dir="./storage")
 )
@@ -58,7 +60,7 @@ query_engine = RetrieverQueryEngine(
     retriever=retriever,
 )
 
-os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+
 
 query_engine = loaded_index.as_query_engine()
 
